@@ -35,7 +35,6 @@ function makeCenterDiv(dogObj){
         detBttn.addEventListener('click', evt => {
             toggleText(dogObj)
         })
-
         mainDogDiv.append(detImg, detH2, detBttn);
 }
 
