@@ -44,10 +44,10 @@ function toggleText(dogObj){
 
     if(dogObj.isGoodDog === true){
         detBttn.textContent = "Bad Dog!"
-        newValue = false
+        newValue = false;
     } else {
         detBttn.textContent = "Good Dog!"
-        newValue = true
+        newValue = true;
     }
 
     fetch(`http://localhost:3000/pups/${dogObj.id}`, {
@@ -79,5 +79,4 @@ filterBttn.addEventListener('click', evt => {
             })
     }
 })
-
-uponLoad()
+uponLoad();
